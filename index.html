@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Responsive Website design by Bootstrap" />
+    <meta name="keywords" content="layout,grid,boostrap,html,css" />
+    <meta name="author" content="Borhan Uddin Bhuiyan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- fonts link -->
+    <!-- jq plugin css -->
+    <link rel="stylesheet" href="vendor/wow-master/css/animate.css">
+    <!-- fonts awesome link -->
+    <script src="https://kit.fontawesome.com/5d36bcb580.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <!-- custom css link --> 
+    <link rel="shorcut icon" href="images/borhan.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>jQ Plugin | Borhan</title>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid justify-content-center">
+      <div class="row">
+        <div class="col display-2 text text-center text-success">jQuery Plugins</div>
+      </div><hr>
+      <div class="row justify-content-center">
+        <div class="col-12 text-center bg-light">
+          <h1 class="wow slideInDown display-3 text-danger p-5 font-weight-bold" data-wow-duration="2s" data-wow-delay="1s"> WOW.js
+          </h1>
+          <p class="wow slideInLeft h2 text-warning">slideInleft</p>
+          <p class="wow  slideInRight mb-5 h2 text-warning">slideInRight</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 text-center bg-light p-5">
+            <span class="counter m-5 h2 text-secondary">1,234,567.00</span>
+<span class=" h2 text-secondary">$</span><span class="counter h2 text-secondary">1.99</span>
+<span class="counter m-5 h2 text-secondary">12345</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS CDN-->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- jQ Plugin -->
+     <!-- wow js -->
+     <script src="vendor/wow-master/js/wow.min.js"></script> 
+     <!-- counter up -->
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <script src="vendor/Counter-Up-master/js/jquery.counterup.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvpaoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+      <script type="text/javascript">
+        $(document).ready(function(){
+          // wow js
+          wow = new WOW(
+          {
+          boxClass:     'wow',      // default
+          animateClass: 'animated', // default
+          offset:       0,          // default
+          mobile:       true,       // default
+          live:         true        // default
+        }
+        )
+        wow.init();
+        // counter up
+        $('.counter').counterUp({
+            delay: 20,
+            time: 2000
+        });
+      });
+      </script>
+  </body>
+</html>
